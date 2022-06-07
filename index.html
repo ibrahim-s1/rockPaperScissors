@@ -10,11 +10,38 @@
 </head>
 
 <body>
-    <button id="rock">rock</button>
-    <button id="paper">paper</button>
-    <button id="scissors">scissors</button>
-
-    <script src="app.js"></script>
+    <header>
+        <h1> Rock Paper Scissors</h1>
+    </header>
+    <div class="main">
+        <div class="scoreBoard">
+            <h2 class="info-h2">Choose your weapon</h2>
+            <h3 class="info-h3">First to score 5 points wins the game</h3>
+            <div class="scoresContainer">
+                <div class="scoreBox">
+                    <div class="sign">❔</div>
+                    <p>Player: <span>0</span></p>
+                </div>
+                <div class="scoreBox">
+                    <div class="sign">❔</div>
+                    <p>Computer: <span>0</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="btns">
+            <button class="btn" id="rockBtn">
+                <div class="sign ">✊</div>
+            </button>
+            <button class="btn" id="paperBtn">
+                <div class="sign">🖐️</div>
+            </button>
+            <button class="btn" id="scissorsBtn">
+                <div class="sign">✌️</div>
+           </button>
+        </div>
+    </div>
+    <footer>Copyright © 2022 Ibrahim Sheikh </footer>
+    <script src="app.js "></script>
 </body>
 
 </html>
